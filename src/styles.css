@@ -1,0 +1,80 @@
+body {
+  font-family: sans-serif;
+  background-color: rgb(1, 12, 20);
+}
+.maindiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.mainhead {
+  color: #ffffff;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.mainpara {
+  color: #ffffff;
+  font-weight: bold;
+  font-family: Roboto;
+}
+
+.board {
+  background-color: red;
+  display: flex;
+  flex-direction: row;
+  border: solid 4px green;
+  flex-wrap: wrap;
+  overflow: auto;
+}
+
+.tile {
+  width: 40px;
+  height: 40px;
+  background-color: #a3c1ad;
+  border: solid 2px green;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.reveal {
+  background-color: #7a837c !important;
+  color: rgb(11, 175, 121);
+  font-weight: bold;
+}
+
+.mine {
+  background-color: red !important;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+}
+.col {
+  display: flex;
+  flex-direction: column;
+}
+
+.zero {
+  background-color: #7a837c !important;
+}
+
+.one {
+  color: greenyellow;
+}
+
+.result {
+  color: #ffffff;
+  font-weight: bold;
+}
+
+.rbtn {
+  padding: 4px;
+  border-radius: 8px;
+}
