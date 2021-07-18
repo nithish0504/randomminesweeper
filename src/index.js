@@ -5,8 +5,8 @@ let boardEl = document.getElementById("gameboard");
 let mcounEl = document.getElementById("minecount");
 let result = document.getElementById("result");
 
-let cols = Math.floor(Math.random() * 10) + 5;
-let rows = Math.floor(Math.random() * 10) + 5;
+let cols = Math.floor(Math.random() * 5) + 5;
+let rows = Math.floor(Math.random() * 5) + 5;
 let dim = cols * rows;
 let maxWidth = cols * 40;
 let noOfMines = Math.floor(dim / 5);
